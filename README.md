@@ -13,7 +13,7 @@
 
 [Live Demo](https://crashguard360.streamlit.app) • [Documentation](docs/) • [Report Bug](https://github.com/yourusername/crashguard360/issues) • [Request Feature](https://github.com/yourusername/crashguard360/issues)
 
-![CrashGuard 360 Banner](reports/figures/dashboard_banner.png)
+![AcciRadar Banner](reports/figures/dashboard_banner.png)
 
 </div>
 
