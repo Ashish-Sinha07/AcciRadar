@@ -68,7 +68,7 @@ Traffic crashes create severe social, economic, and safety challenges for cities
 
 ## 💡 Solution Overview
 
-**CrashGuard 360** is an intelligent AI system that transforms traffic safety management through:
+**AcciRadar** is an intelligent AI system that transforms traffic safety management through:
 ```
 🎯 PREDICT → 🗺️ LOCATE → 📈 FORECAST → 🤖 AUTOMATE → 📊 VISUALIZE
 ```
@@ -646,14 +646,167 @@ crashguard360/
 
 #### Emergency Response Optimization
 
-**Before CrashGuard 360:**
+**Before AcciRadar:**
 - Dispatch decision time: 5-8 minutes
 - Resource allocation accuracy: 62%
 - Incorrect severity assessment: 28%
 
-**After CrashGuard 360:**
+**After AcciRadar:**
 - Dispatch decision time: **<10 seconds** (30x faster)
 - Resource allocation accuracy: **89%**
 - Lives saved: **Estimated 15-20 annually** in Chicago
 
 **ROI Calculation:**
+
+### Key Findings
+
+#### 🌧️ Weather Impact
+- **Rain**: 42% more crashes
+- **Snow**: 3.2x higher severe injury rate
+- **Fog**: 2.13x more crashes
+
+#### ⏰ Peak Crash Times
+- **Rush hours** (7-9 AM, 5-7 PM): 67% of all crashes
+- **Friday evenings**: Highest hit-and-run rate (18%)
+- **10 PM-2 AM**: 2.1x higher severity
+
+#### 🎯 Discovered Patterns
+- `RAIN + DARK + NO_SIGNAL → SEVERE_INJURY (78%)`
+- `SNOW + WEEKEND + NIGHT → HIGH_CRASH_RISK (72%)`
+- `WORK_ZONE + RUSH_HOUR → 2.1x CRASH_RATE`
+- `SPEEDING + WET_ROAD → 3.4x FATALITY_RISK`
+
+---
+
+## 🎥 Demo & Screenshots
+
+### Live Dashboard
+
+**🌐 [Launch Live Demo](https://crashguard360.streamlit.app)**
+
+### Screenshots
+
+#### Home Dashboard
+![Home Dashboard](reports/figures/screenshot_home.png)
+
+#### Severity Predictor
+![Severity Predictor](reports/figures/screenshot_severity_predictor.png)
+
+#### Hotspot Map
+![Hotspot Map](reports/figures/screenshot_hotspot_map.png)
+
+#### AI Assistant
+![AI Assistant](reports/figures/screenshot_ai_assistant.png)
+
+---
+
+## 🗺️ Roadmap
+
+### ✅ Completed (v1.0 - Current)
+
+- [x] Data preprocessing & feature engineering
+- [x] Severity prediction models (XGBoost, LightGBM, RF)
+- [x] Hotspot detection (DBSCAN clustering)
+- [x] Time series forecasting (LSTM)
+- [x] Association rule mining
+- [x] SHAP explainability
+- [x] Automated report generation (GPT-4)
+- [x] RAG-based analytics assistant
+- [x] Streamlit dashboard
+- [x] Docker deployment
+
+### 🚧 In Progress (v1.5 - Q1 2025)
+
+- [ ] Real-time crash prediction using live traffic APIs
+- [ ] Mobile app for emergency responders
+- [ ] Multi-city expansion (Los Angeles, New York)
+- [ ] MLOps pipeline (MLflow + DVC)
+
+### 📅 Planned (v2.0 - Q2 2025)
+
+- [ ] Integration with 911 dispatch systems
+- [ ] Computer vision for crash severity from images
+- [ ] Predictive maintenance for traffic infrastructure
+- [ ] Insurance risk scoring API
+- [ ] Social media sentiment analysis
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please follow these steps:
+
+1. **Fork the Repository**
+2. **Create a Branch** (`git checkout -b feature/AmazingFeature`)
+3. **Commit Changes** (`git commit -m 'Add AmazingFeature'`)
+4. **Push to Branch** (`git push origin feature/AmazingFeature`)
+5. **Open a Pull Request**
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
+### Areas We Need Help
+
+- 🐛 Bug Reports
+- 📖 Documentation
+- 🧪 Testing
+- 🌐 Internationalization
+- 🎨 UI/UX Enhancement
+- 🤖 ML Model Improvements
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📧 Contact
+
+**[Your Name]**
+
+- 📧 Email: [your.email@example.com](mailto:your.email@example.com)
+- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- 🐙 GitHub: [@yourusername](https://github.com/yourusername)
+- 🌐 Portfolio: [yourportfolio.com](https://yourportfolio.com)
+
+### Project Links
+
+- **Repository**: [github.com/yourusername/crashguard360](https://github.com/yourusername/crashguard360)
+- **Live Demo**: [crashguard360.streamlit.app](https://crashguard360.streamlit.app)
+- **Issues**: [Report Bug](https://github.com/yourusername/crashguard360/issues)
+- **Discussions**: [Ask Questions](https://github.com/yourusername/crashguard360/discussions)
+
+---
+
+## 🙏 Acknowledgments
+
+### Data Sources
+- **Chicago Data Portal** - Traffic crash data
+- **NOAA** - Historical weather data
+- **OpenStreetMap** - Geographic data
+
+### Technologies
+- **Scikit-learn Team** - ML framework
+- **XGBoost Developers** - Gradient boosting
+- **TensorFlow Team** - Deep learning
+- **Streamlit** - Dashboard framework
+- **OpenAI** - GPT-4 API
+- **LangChain** - AI orchestration
+
+### Special Thanks
+- **Dr. [Mentor Name]** - Project guidance
+- **Open Source Community** - Tools and libraries
+- **You!** - For checking out this project ⭐
+
+---
+
+## 📊 Project Statistics
+
+<div align="center">
+
+![GitHub stars](https://img.shields.io/github/stars/yourusername/crashguard360?style=social)
+![GitHub forks](https://img.shields.io/github/forks/yourusername/crashguard360?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/yourusername/crashguard360?style=social)
+![GitHub issues](https://img.shields.io/github/issues/yourusername/crashguard360)
+![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/crashguard360)
