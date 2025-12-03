@@ -286,7 +286,7 @@ AI: "Top 3 streets by crash severity and volume:
 │                      DATA LAYER                              │
 │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
 │  │  Raw Data    │→ │  Cleaned     │→ │  Featured    │     │
-│  │  (1M rows)   │  │  (200K rows) │  │  Data        │     │
+│  │  (1M rows)   │  │  (300K rows) │  │  Data        │     │
 │  └──────────────┘  └──────────────┘  └──────────────┘     │
 └─────────────────────────────────────────────────────────────┘
                             ↓
@@ -365,7 +365,7 @@ AI: "Top 3 streets by crash severity and volume:
 **Chicago Traffic Crashes** - Public dataset from City of Chicago Data Portal
 - **Time Period**: 2015-2024
 - **Original Size**: 1,000,000 crashes
-- **Sampled Size**: 200,000 crashes (stratified sampling)
+- **Sampled Size**: 300,000 crashes (stratified sampling)
 - **Update Frequency**: Daily
 
 ### Key Features (47 columns)
@@ -413,7 +413,7 @@ AI: "Top 3 streets by crash severity and volume:
 
 #### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/yourusername/crashguard360.git
+git clone https://github.com/yourusername/AcciRadar.git
 cd crashguard360
 ```
 
