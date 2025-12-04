@@ -65,6 +65,94 @@ Traffic crashes create severe social, economic, and safety challenges for cities
 > In emergency medicine, the first 60 minutes after trauma are critical. Every minute of delay increases mortality risk by 5%. Current systems cannot predict which crashes need immediate attention.
 
 ---
+# ***Data Dictionary***
+
+# Traffic Crash Dataset – Data Dictionary
+
+## Crash Identification Fields
+| Column Name | Type | Description |
+|------------|------|-------------|
+| *CRASH_RECORD_ID* | Object | Unique identifier assigned to each crash record. |
+| *CRASH_DATE_EST_I* | Object | Indicator whether the crash date is estimated (Y/N). |
+| *CRASH_DATE* | Object (Datetime) | The date and time when the crash occurred. |
+
+## Road & Traffic Conditions
+| Column Name | Type | Description |
+|------------|------|-------------|
+| *POSTED_SPEED_LIMIT* | Integer | Speed limit posted on the road. |
+| *TRAFFIC_CONTROL_DEVICE* | Object | Traffic control device present. |
+| *DEVICE_CONDITION* | Object | Condition of the traffic control device. |
+| *WEATHER_CONDITION* | Object | Weather at the time of crash. |
+| *LIGHTING_CONDITION* | Object | Lighting conditions. |
+| *ROADWAY_SURFACE_COND* | Object | Road surface condition. |
+| *ROAD_DEFECT* | Object | Road defects if any. |
+| *ALIGNMENT* | Object | Road alignment. |
+| *LANE_CNT* | Integer | Number of lanes. |
+| *TRAFFICWAY_TYPE* | Object | Type of trafficway. |
+
+## Crash Details
+| Column Name | Type | Description |
+|------------|------|-------------|
+| *FIRST_CRASH_TYPE* | Object | Initial event leading to the crash. |
+| *CRASH_TYPE* | Object | General crash classification. |
+| *INTERSECTION_RELATED_I* | Object | Whether crash is intersection-related. |
+| *NOT_RIGHT_OF_WAY_I* | Object | Right-of-way violation indicator. |
+| *HIT_AND_RUN_I* | Object | Hit and run involved. |
+| *DAMAGE* | Object | Property damage description. |
+| *DATE_POLICE_NOTIFIED* | Object | When police were notified. |
+
+## Contributing Factors
+| Column Name | Type | Description |
+|------------|------|-------------|
+| *PRIM_CONTRIBUTORY_CAUSE* | Object | Primary cause of crash. |
+| *SEC_CONTRIBUTORY_CAUSE* | Object | Secondary cause. |
+
+## Location Details
+| Column Name | Type | Description |
+|------------|------|-------------|
+| *STREET_NO* | Integer | Street number. |
+| *STREET_DIRECTION* | Object | Street direction (N/S/E/W). |
+| *STREET_NAME* | Object | Name of the street. |
+| *BEAT_OF_OCCURRENCE* | Integer | Police beat. |
+| *LATITUDE* | Float | Location latitude. |
+| *LONGITUDE* | Float | Location longitude. |
+| *LOCATION* | Object | Combined map coordinate. |
+
+## Investigation Indicators
+| Column Name | Type | Description |
+|------------|------|-------------|
+| *PHOTOS_TAKEN_I* | Object | Whether photos were taken. |
+| *STATEMENTS_TAKEN_I* | Object | Whether statements were taken. |
+| *REPORT_TYPE* | Object | Type of police report. |
+
+## Special Crash Indicators
+| Column Name | Type | Description |
+|------------|------|-------------|
+| *DOORING_I* | Object | Cyclist dooring indicator. |
+| *WORK_ZONE_I* | Object | Crash in work zone. |
+| *WORK_ZONE_TYPE* | Object | Type of work zone. |
+| *WORKERS_PRESENT_I* | Object | Workers present. |
+
+## Units & Severity
+| Column Name | Type | Description |
+|------------|------|-------------|
+| *NUM_UNITS* | Integer | Number of units involved. |
+| *MOST_SEVERE_INJURY* | Object | Highest injury severity. |
+| *INJURIES_TOTAL* | Integer | Total injuries. |
+| *INJURIES_FATAL* | Integer | Fatal injuries. |
+| *INJURIES_INCAPACITATING* | Integer | Severe incapacitating injuries. |
+| *INJURIES_NON_INCAPACITATING* | Integer | Minor visible injuries. |
+| *INJURIES_REPORTED_NOT_EVIDENT* | Integer | Reported without signs. |
+| *INJURIES_NO_INDICATION* | Integer | No indication of injury. |
+| *INJURIES_UNKNOWN* | Integer | Unknown injury status. |
+
+## Time Fields
+| Column Name | Type | Description |
+|------------|------|-------------|
+| *CRASH_HOUR* | Integer | Hour of the crash. |
+| *CRASH_DAY_OF_WEEK* | Integer | Day of the week. |
+| *CRASH_MONTH* | Integer | Month of the crash. |
+-----
 
 ## 💡 Solution Overview
 
