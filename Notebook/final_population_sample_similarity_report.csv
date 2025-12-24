@@ -1,0 +1,48 @@
+Column,Type,Main Test P-value,T-test p,Levene p,Test Applied,Conclusion
+WORK_ZONE_I,Categorical,0.142023813,,,Chi-square GOF (stat=3.904),Same distribution
+STREET_DIRECTION,Categorical,0.169020749,,,Chi-square GOF (stat=6.434),Same distribution
+ROADWAY_SURFACE_COND,Categorical,0.180814837,,,Chi-square GOF (stat=8.874),Same distribution
+BEAT_OF_OCCURRENCE,Numerical,0.391038199,0.211357988,0.221533901,KS test (stat=0.002),Same distribution
+TRAFFICWAY_TYPE,Categorical,0.395764413,,,Chi-square GOF (stat=19.980),Same distribution
+WORK_ZONE_TYPE,Categorical,0.407975083,,,Chi-square GOF (stat=3.985),Same distribution
+INTERSECTION_RELATED_I,Categorical,0.496109755,,,Chi-square GOF (stat=1.402),Same distribution
+FIRST_CRASH_TYPE,Categorical,0.511425915,,,Chi-square GOF (stat=16.176),Same distribution
+HIT_AND_RUN_I,Categorical,0.526717702,,,Chi-square GOF (stat=1.282),Same distribution
+NOT_RIGHT_OF_WAY_I,Categorical,0.561567531,,,Chi-square GOF (stat=1.154),Same distribution
+DOORING_I,Categorical,0.57261143,,,Chi-square GOF (stat=1.115),Same distribution
+PHOTOS_TAKEN_I,Categorical,0.590104354,,,Chi-square GOF (stat=1.055),Same distribution
+LONGITUDE,Numerical,0.672355353,0.116968077,0.159586745,KS test (stat=0.002),Same distribution
+DAMAGE,Categorical,0.675063058,,,Chi-square GOF (stat=0.786),Same distribution
+ROAD_DEFECT,Categorical,0.682374386,,,Chi-square GOF (stat=3.958),Same distribution
+WORKERS_PRESENT_I,Categorical,0.710452312,,,Chi-square GOF (stat=0.684),Same distribution
+TRAFFIC_CONTROL_DEVICE,Categorical,0.727768661,,,Chi-square GOF (stat=14.020),Same distribution
+DEVICE_CONDITION,Categorical,0.744435669,,,Chi-square GOF (stat=4.302),Same distribution
+LATITUDE,Numerical,0.793667929,0.193034251,0.15719015,KS test (stat=0.001),Same distribution
+STATEMENTS_TAKEN_I,Categorical,0.834085698,,,Chi-square GOF (stat=0.363),Same distribution
+CRASH_TYPE,Categorical,0.854314656,,,Chi-square GOF (stat=0.034),Same distribution
+CRASH_MONTH,Numerical,0.905651694,0.377882125,0.601691295,KS test (stat=0.001),Same distribution
+CRASH_DATE_EST_I,Categorical,0.913508461,,,Chi-square GOF (stat=0.181),Same distribution
+CRASH_HOUR,Numerical,0.917190877,0.348477051,0.786772481,KS test (stat=0.001),Same distribution
+STREET_NO,Numerical,0.929628004,0.79003928,0.60615463,KS test (stat=0.001),Same distribution
+REPORT_TYPE,Categorical,0.938713856,,,Chi-square GOF (stat=0.407),Same distribution
+CRASH_DAY_OF_WEEK,Numerical,0.947778906,0.76314515,0.632231966,KS test (stat=0.001),Same distribution
+SEC_CONTRIBUTORY_CAUSE,Categorical,0.968018952,,,Chi-square GOF (stat=24.338),Same distribution
+ALIGNMENT,Categorical,0.974663196,,,Chi-square GOF (stat=0.836),Same distribution
+POSTED_SPEED_LIMIT,Numerical,0.988823236,0.649260912,0.59558882,KS test (stat=0.001),Same distribution
+PRIM_CONTRIBUTORY_CAUSE,Categorical,0.993309114,,,Chi-square GOF (stat=20.574),Same distribution
+LANE_CNT,Numerical,0.994692148,0.493818287,0.647404582,KS test (stat=0.002),Same distribution
+INJURIES_NO_INDICATION,Numerical,0.996595955,0.482494776,0.365090582,KS test (stat=0.001),Same distribution
+MOST_SEVERE_INJURY,Categorical,0.997497879,,,Chi-square GOF (stat=0.308),Same distribution
+NUM_UNITS,Numerical,0.999790436,0.241427067,0.707035071,KS test (stat=0.001),Same distribution
+LIGHTING_CONDITION,Categorical,0.99999315,,,Chi-square GOF (stat=0.028),Same distribution
+WEATHER_CONDITION,Categorical,0.99999974,,,Chi-square GOF (stat=0.366),Same distribution
+INJURIES_REPORTED_NOT_EVIDENT,Numerical,1,0.627178709,0.629566165,KS test (stat=0.000),Same distribution
+INJURIES_NON_INCAPACITATING,Numerical,1,0.497473236,0.500452404,KS test (stat=0.000),Same distribution
+INJURIES_INCAPACITATING,Numerical,1,0.937520646,0.937558756,KS test (stat=0.000),Same distribution
+INJURIES_FATAL,Numerical,1,0.668098741,0.672402771,KS test (stat=0.000),Same distribution
+INJURIES_TOTAL,Numerical,1,0.40502731,0.408438407,KS test (stat=0.000),Same distribution
+CRASH_RECORD_ID,Categorical,,,,Chi-square GOF (warning: low expected frequencies),Cannot reliably assess
+CRASH_DATE,Categorical,,,,Chi-square GOF (warning: low expected frequencies),Cannot reliably assess
+DATE_POLICE_NOTIFIED,Categorical,,,,Chi-square GOF (warning: low expected frequencies),Cannot reliably assess
+STREET_NAME,Categorical,,,,Chi-square GOF (warning: low expected frequencies),Cannot reliably assess
+LOCATION,Categorical,,,,Chi-square GOF (warning: low expected frequencies),Cannot reliably assess
